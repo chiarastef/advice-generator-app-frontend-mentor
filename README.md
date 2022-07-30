@@ -6,9 +6,9 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 <img src="./screenshots/advice-generator-app-preview.png" alt="Advice generator website preview">
 
-### Links
+## Links
 
-- [Solution URL]()
+- [Solution URL](https://www.frontendmentor.io/solutions/advice-generator-app-7YuzbFVRJH)
 - [Live Site URL](https://advice-generator-website-frontendmentor.netlify.app/) (hosted on Netlify)
 
 ## The challenge
@@ -19,7 +19,7 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Generate a new piece of advice by clicking the dice icon
 
-### Built with
+## Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
