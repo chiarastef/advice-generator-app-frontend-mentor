@@ -1,0 +1,94 @@
+:root {
+  --background-color: #1f2632;
+  --container-background: #323a49;
+  --font-color: #cee3e9;
+  --accent-color: #52ffa8;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: var(--background-color);
+  font-family: "Manrope", sans-serif;
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 500px;
+  background-color: var(--container-background);
+  padding: 40px 20px 55px;
+  border-radius: 10px;
+  margin: 110px auto 0;
+  position: relative;
+}
+
+.advice-title {
+  font-size: 11px;
+  color: var(--accent-color);
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.advice-text {
+  font-size: 24px;
+  color: var(--font-color);
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+
+.divider-desktop {
+  display: none;
+}
+
+button {
+  background-color: var(--accent-color);
+  padding: 19px;
+  border: none;
+  border-radius: 70%;
+  cursor: pointer;
+  position: absolute;
+  bottom: -30px;
+  right: 50%;
+  transform: translateX(50%);
+  transition: box-shadow 0.7s;
+}
+
+button img {
+  vertical-align: middle;
+}
+
+.attribution {
+  font-size: 11px;
+  margin-top: 35px;
+}
+.attribution a {
+  color: #000000;
+}
+
+/* Desktop view */
+@media screen and (min-width: 992px) {
+  .container {
+    padding-bottom: 60px;
+    border-radius: 15px;
+    margin-top: 150px;
+  }
+
+  .divider-mobile {
+    display: none;
+  }
+
+  .divider-desktop {
+    display: inline;
+  }
+
+  button:hover {
+    box-shadow: 0px 0px 20px 2px var(--accent-color);
+  }
+}

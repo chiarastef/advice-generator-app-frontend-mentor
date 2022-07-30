@@ -1,2 +1,1 @@
-# advice-generator-app-frontend-mentor
- 
+# Advice generator website
